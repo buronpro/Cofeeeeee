@@ -1,0 +1,38 @@
+.container {
+    width: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.header {
+    margin-top: 50px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.nav__link {
+text-decoration: none;
+text-transform: uppercase;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+}
